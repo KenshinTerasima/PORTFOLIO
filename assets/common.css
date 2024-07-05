@@ -1,0 +1,126 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.section_title {
+    font-size: 2.8125rem;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ----------------------back------------------ */
+.back {
+    position: fixed;
+    top: -10px; /* 画面上端からの距離 */
+    left: 30px; /* 画面左端からの距離 */
+    z-index: 1000; /* 他の要素よりも手前に表示 */
+    
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 400%;
+        transition: filter 0.3s; /* マウスホバー時のトランジション効果 */
+    }
+}
+
+.back a:hover {
+    color: #FFC107;
+}
+
+/* ---------------------------main----------------------------- */
+.main {
+   text-align: center;
+   margin-top: 10px;
+   
+
+    .Images img {
+        width: 70%;
+    }
+}
+
+/* --------------------------------about-------------------------- */
+.about {
+    text-align: center;
+    margin-bottom: 100px;
+
+    p {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+/* --------------------------------languages---------------------- */
+.languages {
+    text-align: center;
+    margin-bottom: 100px;
+
+    img {
+        width: 17%;
+    }
+
+    p {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    p a {
+        color: #fff;
+    }
+}
+
+/* -------------------------points-------------------------- */
+
+.points {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+
+    li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* ---------------------------------assignment---------------- */
+.assignments {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    
+    li {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+/* ----------------------------footer------------------------- */
+
+footer {
+    height: 200px;
+    background-image: url("/images/Footer-icon.jpg");
+    background-size: cover; /* 画像を要素に合わせる */
+    background-position: center center; /* 画像を中央に配置 */
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  
+  
+  
+  .site-name {
+    flex: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 90px;
+
+    a {
+        color: #000;
+    }
+  }
