@@ -173,7 +173,7 @@ main {
     align-items: center;
     height: 110vh;
     margin-top: -80px;
-    background-image: url('images/First_View.jpeg');
+    background-image: url('images/first_view.jpeg');
     background-size: cover;
     background-position: right center;
     background-attachment: fixed; /* 背景画像を固定 */
