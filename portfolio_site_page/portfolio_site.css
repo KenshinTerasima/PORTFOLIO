@@ -51,7 +51,13 @@ body {
     p {
         margin-top: 50px;
         margin-bottom: 50px;
+
+        .github {
+            border-bottom: #ffffff;
+        }
     }
+
+    
 }
 
 /* --------------------------------languages---------------------- */
